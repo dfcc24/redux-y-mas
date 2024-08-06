@@ -1,0 +1,36 @@
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que la página ocupe al menos el alto de la ventana del navegador */
+    justify-content: center; /* Centra verticalmente el contenido principal */
+    align-items: center;
+    text-align: center;
+    background-color: #f8f9fa; /* Color de fondo opcional */
+  }
+  
+  .welcome-content {
+    flex: 1; /* Permite que el contenido principal ocupe el espacio disponible */
+  }
+  
+  .logo {
+    width: 600px; /* Ajusta el tamaño del logo según sea necesario */
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary {
+    margin-bottom: 30px; /* Espacio entre el botón y el pie de página */
+  }
+  
+  .welcome-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40; /* Color de fondo del pie de página */
+    color: white;
+    padding: 10px 0;
+  }
+  

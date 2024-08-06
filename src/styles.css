@@ -1,0 +1,39 @@
+.product-image {
+    width: 10px;
+    height: auto;
+    object-fit: cover; /* Para que la imagen se ajuste sin distorsión */
+    
+  }
+
+/* Gradientes de fondo para las cards */
+.bg-gradient-1 {
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+  }
+  
+  .bg-gradient-2 {
+    background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+  }
+  
+  .bg-gradient-3 {
+    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  }
+  
+  /* Estilo personalizado para el borde de las cards */
+  .custom-border {
+    border: 1px solid #333;
+    border-radius: 15px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* Ajuste del tamaño de las imágenes dentro de las cards */
+  .card-img-top {
+    height: 300px;
+    object-fit: fill;
+    border-radius: 20px 20px 0 0;
+    width: 200px;
+    }
+  
